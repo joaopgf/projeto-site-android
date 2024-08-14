@@ -51,7 +51,7 @@ header > p{
     font-family: var(--fonte-padrao);
     color: white;
     font-size: 1.2em;
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
     padding-left: 10px;
     padding-right: 10px;
@@ -83,7 +83,7 @@ main{
     max-width: 1000px;
     margin: auto;
     padding: 20px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
     margin-bottom: 30px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -94,11 +94,12 @@ main p{
     text-align: justify;
     font-size: 1em;
     line-height: 2em;
+    text-indent: 30px;
 }
 
 main strong{
     color: var(--cor4);
-    font-weight: bold;
+    font-weight: bolder;
 }
 main a{
     text-decoration: none;
@@ -117,7 +118,7 @@ main a:hover{
     max-width: 350px;
 }
 
-mian img{
+main img{
     width: 100%;
 }
 main h1 {
